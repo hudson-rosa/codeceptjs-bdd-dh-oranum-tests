@@ -1,0 +1,34 @@
+{
+  "name": "codeceptjs-bdd-dh-oranum-tests",
+  "version": "1.0.0",
+  "description": "RECOMMENDED SECTIONS TO READ AND FOLLOW:     - 1. Clone this project from [GitHub]     - 2. Install this project from the ground up locally     - 3. Run the tests locally     - 4. Run dockerized tests (RECOMMENDED)",
+  "main": "codecept.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudsonssrosa/codeceptjs-bdd-dh-oranum-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hudsonssrosa/codeceptjs-bdd-dh-oranum-tests/issues"
+  },
+  "homepage": "https://github.com/hudsonssrosa/codeceptjs-bdd-dh-oranum-tests#readme",
+  "dependencies": {
+    "@codeceptjs/ui": "^0.4.6",
+    "dotenv": "^10.0.0",
+    "npm": "^8.3.0"
+  },
+  "devDependencies": {
+    "allure-commandline": "^2.17.2",
+    "codeceptjs": "^3.2.2",
+    "playwright": "^1.17.1",
+    "puppeteer": "^11.0.0"
+  }
+}
